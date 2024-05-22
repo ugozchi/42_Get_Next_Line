@@ -6,9 +6,11 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 22:49:23 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/22 12:59:31 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/22 15:05:44 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "get_next_line.h"
 
 /*Globalement il va y avoir plusieurs etapes dans le prog :
 
@@ -37,7 +39,7 @@ static void	join_archive_and_buffer(char **archive, char *buffer)
 {
 	char	*temp;
 
-	temp = ft_strjoin(*archive, *buffer);
+	temp = ft_strjoin(*archive, buffer);
 	free_archive(archive);
 	*archive = temp;
 }
@@ -69,18 +71,7 @@ static char	*extract_line(char **archive)
 	return (line);
 }	
 
-char	*get_next_line(int fd)
-{
-	
-}
-
-
-
-
-/*get_next_line reads up to BUFFER_SIZE bytes of the file pointed by fd into 
-buffer. buffer is stored into the static variable archive at each iteration,
-and the line is extracted from archive by the extract_line function
-get_next_line returns the current line at each linebreak it encounters*/
+/**/
 char	*get_next_line(int fd)
 {
 	char		*buffer;
