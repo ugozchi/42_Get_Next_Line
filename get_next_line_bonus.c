@@ -6,7 +6,7 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 23:59:25 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/30 00:13:51 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/30 00:20:22 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ static char	*extract_line(char **archive)
 char	*get_next_line(int fd)
 {
 	char		*buffer;
-	static char	*archive[FD_MAX] = NULL;
+	static char	*archive[FD_MAX] = {NULL};
 	ssize_t		bytes_read;
 
 	if (fd < 0 || BUFFER_SIZE <= 0 || BUFFER_SIZE > INT_MAX - 1)
