@@ -6,7 +6,7 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 23:59:25 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/30 00:11:58 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/30 00:13:51 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,4 +84,3 @@ char	*get_next_line(int fd)
 		return (free_archive(&archive[fd]));
 	return (extract_line(&archive[fd]));
 }
-
