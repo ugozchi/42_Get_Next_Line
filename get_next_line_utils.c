@@ -6,7 +6,7 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 22:56:00 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/21 23:14:33 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/29 23:47:31 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ size_t	ft_strlen(const char *str)
 	return (length);
 }
 
-/*ft_strjoin allocates and returns a new string, which is the result of the concatenation of s1 and s2*/
+/*ft_strjoin allocates and returns a new string, which is the result of the
+  concatenation of s1 and s2*/
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*output;
