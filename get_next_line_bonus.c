@@ -6,11 +6,11 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 23:59:25 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/30 00:02:03 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/30 00:11:58 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 static char	*free_archive(char **archive)
 {

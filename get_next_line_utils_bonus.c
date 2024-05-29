@@ -6,11 +6,11 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/30 00:06:54 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/30 00:07:03 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/30 00:12:11 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 /*return the length*/
 size_t	ft_strlen(const char *str)
