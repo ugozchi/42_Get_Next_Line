@@ -68,15 +68,6 @@ Voici les résultats :
 
 <br>
 
-### Deuxième partie
-
-<br>
-
-| |
-| --- |
-| <img src="./img/Test_2nd_part.png" /> |
-
-<br>
 
 ### Partie Bonus
 
@@ -94,12 +85,12 @@ Voici les résultats :
 
 | |
 | --- |
-| ![](./img/note2.png) |
+| ![](./img/note.png) |
 
 
 | | |
 | --- | --- |
-| Moulinette | ![](./img/note1.png) |
-| Correcteur 1 | <img src="./img/correction1.png" /> |
-| Correcteur 2 | <img src="./img/correction2.png" /> |
-| Correcteur 3 | <img src="./img/correction3.png" /> |
+| Moulinette | ![](./img/moulinette.png) |
+| Correcteur 1 | <img src="./img/com1.png" /> |
+| Correcteur 2 | <img src="./img/com2.png" /> |
+| Correcteur 3 | <img src="./img/com3.png" /> |
