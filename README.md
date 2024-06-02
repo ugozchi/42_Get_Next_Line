@@ -42,17 +42,12 @@ Texte ici
 
 ## Tests  📋
 
-Text ici.
+Dans ce projet, ni besoin de notre libft, ni besoin de Makefile. Nous avons malgrè tout utilisé quelques fonction de la libft que nous avons replacer dans le fichier get_next_line_utils.c.
+
 
 <br>
 
-| |
-| --- |
-| <img src="./img/Compilation.png" /> |
-
-<br>
-
-Une fois cela vérifier, nous pouvons tester notre projet à l'aide de : [test](quel test?)
+Une fois cela vérifier, nous pouvons tester notre projet à l'aide de : [/francinette](https://github.com/xicodomingues/francinette)
 
 <br>
 
@@ -64,7 +59,7 @@ Voici les résultats :
 
 | |
 | --- |
-| <img src="./img/Test_first_part.png" /> |
+| <img src="./img/test.png" /> |
 
 <br>
 
@@ -75,7 +70,13 @@ Voici les résultats :
 
 | |
 | --- |
-| <img src="./img/Test_bonus_part.png" /> |
+| <img src="./img/bonus_test.png" /> |
+
+<br>
+
+| |
+| --- |
+| <img src="./img/passed.png" /> |
 
 <br>
 
