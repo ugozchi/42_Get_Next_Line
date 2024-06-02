@@ -6,13 +6,15 @@
 	
 # Get_Next_Line
 
-Description du projet ici
+Ce projet va non seulement nous permettre d'ajouter une fonction très pratique à notre collection, mais également d'aborder un nouvel élément surprenant dans la programmation en C : les variables statiques.
+Ce projet a pour but de nous faire développer une fonction qui renvoie une ligne lue depuis un descripteur de fichier.
+Tu peux trouver le sujet [ici](fr.subject.pdf).
 
 <br>
 
-## Télécharge et compile la librairie ⬇️
+## Télécharge et utilise la fonction ⬇️
 
-Clone la librairie.
+Clone le projet.
 
 ```
 git clone https://github.com/ugozchi/Get_Next_Line
